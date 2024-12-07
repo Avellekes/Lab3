@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Варіант 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Чай</h1>
+    <p>Чай - один із найпопулярніших напоїв у світі, і його різновидів існує безліч. Кожен вид чаю відрізняється не лише смаком та ароматом, але й корисними властивостями.</p>
+    
+    <div id="image-container">
+        <img id="current-image" src="images/logo.png" alt="Зображення">
+    </div>
+
+    <div id="table-container">
+        <h2>Дошка</h2>
+        <label>Мінімальне значення: <input type="number" id="min-value" value="1"></label>
+        <label>Максимальне значення: <input type="number" id="max-value" value="100"></label>
+        <button onclick="generateTable()">Створити</button>
+        <table id="number-table"></table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
